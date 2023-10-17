@@ -19,7 +19,7 @@ const Header = ({ onPlaceChanged, onLoad }) => {
             Explore new places
           </Typography>
           <Autocomplete onLoad={onLoad} onPlaceChanged={onPlaceChanged}>
-            <div className={classes.search}>
+            <div className={classes.search}> 
               <div className={classes.searchIcon}>
                 <SearchIcon />
               </div>
