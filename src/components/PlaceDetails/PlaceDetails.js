@@ -8,7 +8,7 @@ import useStyles from './styles.js';
 
 const PlaceDetails = ({ place, selected, refProp }) => {
   if (selected) refProp?.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  const classes = useStyles();
+  const classes = useStyles(); 
 
   return ( 
     <Card elevation={6}>
