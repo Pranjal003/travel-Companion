@@ -10,7 +10,7 @@ const PlaceDetails = ({ place, selected, refProp }) => {
   if (selected) refProp?.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   const classes = useStyles();
 
-  return (
+  return ( 
     <Card elevation={6}>
       <CardMedia
         style={{ height: 350 }}
