@@ -11,7 +11,7 @@ const Map = ({ coords, places, setCoords, setBounds, setChildClicked, weatherDat
   const matches = useMediaQuery('(min-width:600px)');
   const classes = useStyles();
  
-  return (
+  return ( 
     <div className={classes.mapContainer}>
       <GoogleMapReact
         bootstrapURLKeys={{ key: 'Enter your Google maps API key here' }}
