@@ -28,7 +28,7 @@ const Header = ({ onPlaceChanged, onLoad }) => {
           </Autocomplete>
         </Box>
       </Toolbar>
-    </AppBar>
+    </AppBar> 
   );
 };
 
