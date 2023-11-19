@@ -11,7 +11,7 @@ const App = () => {
   const [rating, setRating] = useState('');  
   
   const [coords, setCoords] = useState({});
-  const [bounds, setBounds] = useState(null); 
+  const [bounds, setBounds] = useState(null);  
 
   const [filteredPlaces, setFilteredPlaces] = useState([]); 
   const [places, setPlaces] = useState([]);
