@@ -14,7 +14,7 @@ export default makeStyles((theme) => ({
     padding: '25px',
   },
   marginBottom: {
-    marginBottom: '30px',
+    marginBottom: '30px', 
   },
   list: {
     height: '75vh', overflow: 'auto',
