@@ -12,7 +12,7 @@ const Map = ({ coords, places, setCoords, setBounds, setChildClicked, weatherDat
   const classes = useStyles();  
  
   return ( 
-    <div className={classes.mapContainer}> 
+    <div className={classes.mapContainer}>  
       <GoogleMapReact
         bootstrapURLKeys={{ key: 'Enter your Google maps API key here' }}
         defaultCenter={coords} 
