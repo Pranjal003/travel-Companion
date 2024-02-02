@@ -7,7 +7,7 @@ export default makeStyles((theme) => ({
   selectEmpty: {
     marginTop: theme.spacing(2), 
   }, 
-  loading: {
+  loading: { 
     height: '600px', display: 'flex', justifyContent: 'center', alignItems: 'center',
   }, 
   container: {
