@@ -9,7 +9,7 @@ import Map from './components/Map/Map';
 const App = () => {  
   const [type, setType] = useState('restaurants');     
   const [rating, setRating] = useState('');  
-   
+    
   const [coords, setCoords] = useState({});  
   const [bounds, setBounds] = useState(null);  
  
