@@ -5,7 +5,7 @@ import PlaceDetails from '../PlaceDetails/PlaceDetails';
 import useStyles from './styles.js'; 
         
 const List = ({ places, type, setType, rating, setRating, childClicked, isLoading }) => {        
-  const [elRefs, setElRefs] = useState([]);           
+  const [elRefs, setElRefs] = useState([]);            
   const classes = useStyles();         
        
   useEffect(() => {      
