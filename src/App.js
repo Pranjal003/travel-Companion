@@ -13,7 +13,7 @@ const App = () => {
   const [coords, setCoords] = useState({});  
   const [bounds, setBounds] = useState(null);  
  
-  const [filteredPlaces, setFilteredPlaces] = useState([]); 
+  const [filteredPlaces, setFilteredPlaces] = useState([]);  
   const [places, setPlaces] = useState([]);
  
   const [autocomplete, setAutocomplete] = useState(null);
