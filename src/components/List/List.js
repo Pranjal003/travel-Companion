@@ -15,7 +15,7 @@ const List = ({ places, type, setType, rating, setRating, childClicked, isLoadin
   return (     
     <div className={classes.container}>  
       <Typography variant="h5">Discover, Dine, Explore, Enjoy!</Typography>    
-      {isLoading ? (   
+      {isLoading ? (    
         <div className={classes.loading}>     
           <CircularProgress size="5rem" />   
         </div>  
