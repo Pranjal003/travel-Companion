@@ -7,7 +7,7 @@ export const getPlacesData = async (type, sw, ne) => {
       params: {
         bl_latitude: sw.lat,  
         bl_longitude: sw.lng,   
-        tr_longitude: ne.lng,   
+        tr_longitude: ne.lng,    
         tr_latitude: ne.lat,     
       },   
       headers: {
