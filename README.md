@@ -7,7 +7,7 @@
 ## Introduction
 Build and Deploy an advanced Travel Companion Application using Google Maps. With Geolocation, Google Maps API, Searching for places, Fetching restaurants, hotels and attractions based on location from specialized Rapid APIs, data filtering and much more.
 
-Get your API key from here and experience this amazing web app. 
+Get your API key from here and experience this amazing web app.  
 
 [RapidAPI](https://rapidapi.com/hub?utm_source=youtube.com/JavaScriptMastery&utm_medium=DevRel&utm_campaign=DevRel)
 
