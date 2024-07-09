@@ -4,10 +4,10 @@ import { AppBar, Toolbar, Typography, InputBase, Box } from '@material-ui/core';
 import SearchIcon from '@material-ui/icons/Search';  
  
 import useStyles from './styles.js';          
-     
+       
 const Header = ({ onPlaceChanged, onLoad }) => {         
   const classes = useStyles();               
-       
+        
   return (                 
     <AppBar position="static">            
       <Toolbar className={classes.toolbar}>            
